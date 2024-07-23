@@ -6,6 +6,7 @@ This project demonstrates a simple implementation of routing using React Router 
 
 This project allows users to navigate between different pages, including a homepage, login, register, and profile sections. The navbar dynamically changes based on whether a user is logged in or not.
 
+## Installation
 
 ### Prerequisites
 
