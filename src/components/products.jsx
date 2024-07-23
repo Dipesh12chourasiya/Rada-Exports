@@ -231,7 +231,7 @@ function AppProducts() {
                 50/72,75/72,100/144,150/96,150/144
               </p>
               <p>Semi dull yarn:</p>
-              <p style={{ fontSize: "14px" }}>
+              <p style={{ fontSize: "12px" }}>
                 30/48,50/72,50/144,75/72,100/96,100/144,150/96,150/144,200/288
               </p>
             </div>
