@@ -1,0 +1,15 @@
+
+.con{
+    width: "500px";
+     display: "flex";
+   justify-content: "center";
+}
+
+@media only screen and (max-width: 767px) {
+.con img{
+   width: 336px;
+}
+.con{
+   width: 350px;
+}
+}

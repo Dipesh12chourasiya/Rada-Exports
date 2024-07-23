@@ -1,25 +1,52 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AppHeader from './components/Header';
+import AppHero from './components/hero';
+import Table from './components/Table/Table';
+import AppFooter from './components/footer';
+import PolyesterFiber from './components/Table/PolyesterFiber';
+import CottenWaste from './components/Table/CottenWaste';
+import ViscossFiber from './components/Table/ViscossFiber';
+import LinenFiber from './components/Table/LinenFiber';
+import CottonYarn from './components/Yarn/CottonYarn';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='App'>
+      {/* <header id='header'>
+        <AppHeader />
       </header>
+      <main>
+        <AppHero />
+      </main>
+      <Table /> */}
+
+      <BrowserRouter>
+        <header id='header'>
+          <AppHeader />
+        </header>
+      <Routes>
+        <Route path="/" element={<AppHero />}>
+        </Route>
+        <Route path='/raw-cotton' element={<Table />}></Route>
+        <Route path='/polyster-fibre' element={<PolyesterFiber />}></Route>
+        <Route path='/cotton-waste' element={<CottenWaste />}></Route>
+        <Route path='/viscose-fiber' element={<ViscossFiber />}></Route>
+        <Route path='/linen-fiber' element={<LinenFiber />}></Route>
+
+        <Route path='/cotton-yarn' element={<CottonYarn />}></Route>
+      </Routes>
+      <footer id='footer'>
+        <AppFooter />
+      </footer>
+    </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+
+
+// https://www.lahotioverseas.com/
+// https://github.com/bibeva/React-Bootstrap-Project-Corporate/blob/master/src/components/hero.js
