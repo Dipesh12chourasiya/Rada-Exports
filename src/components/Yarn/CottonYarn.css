@@ -1,0 +1,37 @@
+
+
+.colDataDiv{
+    width: 399px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgCont{
+    width: 250px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.dtyyarn{
+    width:500px;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .dtyyarn{
+        width: 250px;
+    }
+    .colDataDiv{
+        margin-bottom: 40px;
+    }
+    .dtyText{
+        position: relative;
+        left: 38px;
+    }
+}

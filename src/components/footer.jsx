@@ -59,11 +59,12 @@ function AppFooter() {
             <Nav.Link className="footer-link" href="/cotton-waste">Cotton Waste</Nav.Link>
             <Nav.Link className="footer-link" href="/viscose-fiber">Viscose fibre</Nav.Link>
             <Nav.Link className="footer-link" href="/linen-fiber">Linen fibre</Nav.Link>
+            <Nav.Link className="footer-link" href="/yarn">Yarn</Nav.Link>
           </Nav>
         </Col>
         <Col>
           <h4>Contact Us!</h4>
-          <p>Address: Ricco industrial area 29 mele gulabpura dist bhilwara</p>
+          <p>Address: Ricco Industrial Area 29 Mele, Gulabpura, District Bhilwara (R.J)</p>
           <p>Email: Prateekshastri9@gmail.com</p>
           <p className="phoneNumber">Phone: +917987725348</p>
         </Col>
@@ -77,15 +78,6 @@ function AppFooter() {
                   rel="noreferrer"
                 >
                   <i className="fab fa-whatsapp"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
               {/* <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a></li> */}

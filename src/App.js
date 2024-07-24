@@ -9,7 +9,7 @@ import PolyesterFiber from './components/Table/PolyesterFiber';
 import CottenWaste from './components/Table/CottenWaste';
 import ViscossFiber from './components/Table/ViscossFiber';
 import LinenFiber from './components/Table/LinenFiber';
-import CottonYarn from './components/Yarn/CottonYarn';
+import Yarn from './components/Yarn/CottonYarn';
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
         <Route path='/viscose-fiber' element={<ViscossFiber />}></Route>
         <Route path='/linen-fiber' element={<LinenFiber />}></Route>
 
-        <Route path='/cotton-yarn' element={<CottonYarn />}></Route>
+        <Route path='/yarn' element={<Yarn />}></Route>
       </Routes>
       <footer id='footer'>
         <AppFooter />

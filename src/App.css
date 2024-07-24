@@ -389,7 +389,7 @@ textarea {
   right: 0;
   top: 0;
   z-index: 9999;
-  background: #fff;
+  background: #e3e3e3;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
 }
@@ -1183,6 +1183,7 @@ textarea {
 
 .mb{
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .yarnDiv{

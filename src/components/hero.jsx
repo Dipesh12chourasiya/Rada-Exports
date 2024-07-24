@@ -39,8 +39,8 @@ function AppHero() {
     </section>
       
       {/* About Component */}
-     <AppProducts />
      <AppAbout />
+     <AppProducts />
     </div>
   );
 }
