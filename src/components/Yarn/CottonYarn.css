@@ -8,6 +8,7 @@
     align-items: center;
 }
 
+
 .imgCont{
     width: 250px;
     height: 260px;
@@ -33,5 +34,8 @@
     .dtyText{
         position: relative;
         left: 38px;
+    }
+    .criticalP{
+        width: 40px;
     }
 }

@@ -183,13 +183,12 @@ const Yarn = () => {
           <Col sm={6} style={{ display: "flex", alignItems: "center" }}>
             <div className='dtyText'>
               <p>Dull yarn count</p>
-              <p style={{ fontSize: "14px" }}>
+              <p>
                 50/72,75/72,100/144,150/96,150/144
               </p>
               <p>Semi dull yarn:</p>
-              <p style={{ fontSize: "12px" }}>
-                30/48,50/72,50/144,75/72,100/96,100/144,150/96,150/144,200/288
-              </p>
+              <p>30/48,50/72,50/144,75/72,100/96,</p>
+              <p>100/144,150/96,150/144,200/288</p>
             </div>
           </Col>
         </Row>
