@@ -19,7 +19,7 @@ const CottenWaste = () => {
                 <p>6. Linter Waste</p>
                 <p>7. Sweeping</p>
                 <p>8. Hard Waste</p>
-                <p>9. All Types of waste available</p>
+                <p>9. All Types of Waste Available</p>
           </div>
         </div>
     </div>
