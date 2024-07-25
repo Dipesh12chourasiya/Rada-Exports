@@ -11,6 +11,11 @@
    justify-content: center;
    align-items: center;
 }
+.imgDivvv{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
 
 @media only screen and (max-width: 767px) {
  .con img{

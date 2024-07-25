@@ -21,19 +21,26 @@ const productsData = [
   {
     id: 3,
     link: "/cotton-waste",
-    image: require("../assets/images/ctn-waste.jpg"),
+    image: require("../assets/yarn/CottonWasteC.jpeg"),
     title: "Cotton Waste",
     subtitle: "The foundation of soft clothing",
   },
   {
     id: 4,
+    link: "/waste",
+    image: require("../assets/yarn/WasteC.jpeg"),
+    title: "Waste",
+    subtitle: "The foundation of soft clothing",
+  },
+  {
+    id: 5,
     link: "/viscose-fiber",
     image: require("../assets/images/viscose-fiber.jpeg"),
     title: "Viscose Fibre",
     subtitle: "The foundation of soft clothing",
   },
   {
-    id: 5,
+    id: 6,
     link: "/linen-fiber",
     image: require("../assets/images/linen-fiber.jpeg"),
     title: "Linen Fibre",
@@ -54,13 +61,12 @@ function AppProducts() {
         <Row className="portfoliolist">
           {productsData.map((product) => {
             return (
-              <Col sm={4} key={product.id}>
+              <Col className="ColmDiv" sm={4} key={product.id}>
                 <div className="portfolio-wrapper">
                   <a href={product.link}>
                     <Image src={product.image} />
                     <div className="label text-center">
-                      <h3>{product.title}</h3>
-                      <p>{product.subtitle}</p>
+                      <h3 style={{fontWeight:'600'}}>{product.title}</h3>
                     </div>
                   </a>
                   <h3
@@ -68,6 +74,8 @@ function AppProducts() {
                       backgroundColor: "white",
                       color: "black",
                       textAlign: "center",
+                      fontWeight:'600',
+                      margin:'12px 0'
                     }}
                   >
                     {product.title}
@@ -78,13 +86,12 @@ function AppProducts() {
           })}
 
           {/* //For Yarn  */}
-          <Col sm={4} >
+          <Col className="ColmDiv" sm={4} >
                 <div className="portfolio-wrapper">
                   <a href="/yarn">
                     <Image src={require('../assets/images/Yarn-Section.jpg')} />
                     <div className="label text-center">
-                      <h3>Yarn</h3>
-                      <p>The foundation of soft clothing</p>
+                      <h3 style={{fontWeight:'600'}}>Yarn</h3>
                     </div>
                   </a>
                   <h3
@@ -92,6 +99,8 @@ function AppProducts() {
                       backgroundColor: "white",
                       color: "black",
                       textAlign: "center",
+                      fontWeight:'600',
+                      margin:'12px 0'
                     }}
                   >
                     Yarn

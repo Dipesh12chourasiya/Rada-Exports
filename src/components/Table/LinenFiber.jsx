@@ -5,24 +5,22 @@ import './viscose.css'
 const LinenFiber = () => {
   return (
     <div
-      style={{ margin: "70px 20px", display: "flex", justifyContent: "center" }}
+      style={{ margin: "90px 20px", display: "flex", justifyContent: "center" }}
     >
       <div>
-        <h1>Linen fibre</h1>
+        <h2 style={{fontWeight:'600', textAlign:'center'}}>Linen fibre</h2>
         
           <Image className="con" src={require("../../assets/images/linen-fiber.jpeg")} />
-          <p style={{ margin: "12px 0px" }}>
-          <ul>
+          <div style={{ margin: "12px 0px" }}>
             <h3>More Details:</h3>
-            <li>Linen fibre /flax fibre </li>
-            <li>Linen tow </li>
-            <li>Linen noil </li>
-            <li>Flax waste </li>
-            <li>Flax loop waste </li>
-            <li>Cottonized linen </li>
-            <li>Cotton-linen flat /lickerin /dropping </li>
-          </ul>
-        </p>
+            <p>1. Linen fibre /flax fibre </p>
+            <p>2. Linen tow </p>
+            <p>3. Linen noil </p>
+            <p>4. Flax waste </p>
+            <p>5. Flax loop waste </p>
+            <p>6. Cottonized linen </p>
+            <p>7. Cotton-linen flat /Lickerin /Dropping </p>
+        </div>
       </div>
     </div>
   );

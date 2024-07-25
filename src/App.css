@@ -269,7 +269,6 @@ textarea {
 
 .socials {
   display: table;
-  height: 100%;
   width: 100%;
 }
 
@@ -277,7 +276,6 @@ textarea {
   display: table-cell;
   /* position of the social icons */
   vertical-align: top; 
-  text-align: center;
 }
 
 .socials li {
@@ -300,7 +298,7 @@ textarea {
 }
 
 .socials a:hover {
-  background: black;
+  background: rgb(11, 255, 11);
   color: #fff;
 }
 
@@ -319,7 +317,7 @@ textarea {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #f64b4b;
+  background: #20719c;
   border-radius: 3px;
   color: #fff;
   border: 0;
@@ -389,7 +387,7 @@ textarea {
   right: 0;
   top: 0;
   z-index: 9999;
-  background: #e3e3e3;
+  background: #c5c5c5;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
 }
@@ -401,7 +399,7 @@ textarea {
 }
 
 #header .navbar-brand {
-  color: #3152cc;
+  color: #2B8EC3;
   text-transform: uppercase;
   font-weight: 600;
   height: auto;
@@ -431,7 +429,7 @@ textarea {
 #header .navbar-collapse a:hover,
 #header .navbar-collapse a.active {
   background: none;
-  color: #3152cc;
+  color: #2B8EC3;
 }
 
 #header .navbar-collapse a:hover:before,
@@ -443,7 +441,7 @@ textarea {
 
 #header .navbar-collapse a:before {
   content: '';
-  background: #3152cc;
+  background: #2B8EC3;
   height: 1px;
   position: absolute;
   bottom: 7px;
@@ -455,7 +453,7 @@ textarea {
 }
 
 #footer {
-  background: #3152cc;
+  background: #2B8EC3;
   /* padding: 50px 0;
   color: #fff;
   text-align: center; */
@@ -518,7 +516,7 @@ textarea {
 }
 
 .about-block .progress-bar {
-  background-color: #3152cc;
+  background-color: #2B8EC3;
   -webkit-transition: width 0.3s linear;
   transition: width 0.3s linear;
 }
@@ -544,7 +542,7 @@ textarea {
   right: 0;
   -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-  background: rgba(0, 0, 0, 0.8);
+  background: #2B8EC3;
   padding: 10px;
   color: #fff;
 }
@@ -588,8 +586,8 @@ textarea {
 }
 
 .works-block .pagination .page-item.active .page-link {
-  background: #3152cc;
-  border-color: #3152cc;
+  background: #2B8EC3;
+  border-color: #2B8EC3;
 }
 
 .works-block .pagination .page-item .page-link {
@@ -874,6 +872,12 @@ textarea {
 }
 
 
+
+/* Product Css */
+
+
+
+
 @media only screen and (min-width: 1025px) {
 
   a[href^=tel],
@@ -944,9 +948,18 @@ textarea {
     height: 50px;
   }
 }
-
+ 
+/* Cotton Waste ka p tag */
+/* .sentanceDiv{
+    padding: 23px 0px;
+    position: relative;
+    right: 126px;
+} */
 @media only screen and (max-width: 767px) {
-
+    
+  /* .sentanceDiv{
+    right: 72px;
+  } */
   
   h2 {
     font-size: 20px;
@@ -1121,6 +1134,15 @@ textarea {
     font-size: 15px;
 
   }
+
+  /* product column  */
+  .ColmDiv{
+    width: 326px;
+    margin: 0 auto;
+    /* width: 369px;
+    position: relative;
+    left: 4vw; */
+  }
 }
 
 
@@ -1142,8 +1164,8 @@ textarea {
 } */
 
 .btn.btn-primary {
-  background: #3152cc;
-  border-color: #3152cc;
+  background: #2B8EC3;
+  border-color: #2B8EC3;
   padding: 13px 35px;
   font-size: 14px;
   line-height: 18px;
@@ -1155,8 +1177,8 @@ textarea {
 
 .btn.btn-primary:hover{
   background: white;
-  border-color: #3152cc;
-  color: #3152cc;
+  border-color: #2B8EC3;
+  color: #2B8EC3;
 }
 
 

@@ -10,6 +10,7 @@ import CottenWaste from './components/Table/CottenWaste';
 import ViscossFiber from './components/Table/ViscossFiber';
 import LinenFiber from './components/Table/LinenFiber';
 import Yarn from './components/Yarn/CottonYarn';
+import Waste from './components/Table/Waste';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path='/cotton-waste' element={<CottenWaste />}></Route>
         <Route path='/viscose-fiber' element={<ViscossFiber />}></Route>
         <Route path='/linen-fiber' element={<LinenFiber />}></Route>
+        <Route path='/waste' element={<Waste />}></Route>
 
         <Route path='/yarn' element={<Yarn />}></Route>
       </Routes>

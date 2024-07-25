@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
-import Stack from "react-bootstrap/esm/Stack";
+// import Stack from "react-bootstrap/esm/Stack";
 import Nav from "react-bootstrap/Nav";
 import {Image} from 'react-bootstrap';
+
+import './footer.css'
 
 function AppFooter() {
   const [showTopBtn, setShowTopBtn] = useState(false);
@@ -29,50 +31,50 @@ function AppFooter() {
   return (
     <Container fluid>
       <Row className="text-white p-4">
-        <Col className="m-in-f-logo">
-          <Stack>
-            <Image src={require('../assets/images/rada-exp-logo.png')} alt="company-logo"
+        <Col className="m-in-f-logo" sm={4}>
+          <div className="footerLogoDiv"> 
+            <Image className="fLogo" src={require('../assets/images/rada-exp-logo.png')} alt="company-logo"
                rounded
                width={150}
                height={150}
                />
-            {/* <h2 style={{ fontWeight: "600" }}>Rada Exports</h2> */}
-            <p className="footer-p">Deals in all kinds of Waste, Yarn and Fibers</p>
-          </Stack>
+            <div>
+              <h3 className="footeH3">RADA EXPORTS</h3> 
+            <p className="footer-p fotSUb">Exporting Excellence in Textile Fibers.</p>
+            </div>
+          </div>
         </Col>
-        <Col>
+        <Col sm={4} className="footerLinkCol">
           <Nav
-            className="flex-column fs-5"
-            style={{ display: "flex", justifyContent: "start" }}
+            className="flex-column fs-5 footerLInkCOn"
           >
             <p style={{ fontSize: "19px" }}>Useful Links</p>
             <Nav.Link className="footer-link" href="/">
               Home
             </Nav.Link>
             <Nav.Link className="footer-link" href="#about">
-              About
+              About Us
             </Nav.Link>
             <Nav.Link className="footer-link" href="/raw-cotton">
               Raw Cotton
             </Nav.Link>
             <Nav.Link className="footer-link" href="polyster-fibre">Polyester fibre</Nav.Link>
             <Nav.Link className="footer-link" href="/cotton-waste">Cotton Waste</Nav.Link>
+            <Nav.Link className="footer-link" href="/waste">Waste</Nav.Link>
             <Nav.Link className="footer-link" href="/viscose-fiber">Viscose fibre</Nav.Link>
             <Nav.Link className="footer-link" href="/linen-fiber">Linen fibre</Nav.Link>
             <Nav.Link className="footer-link" href="/yarn">Yarn</Nav.Link>
           </Nav>
         </Col>
-        <Col>
+        <Col sm={3} className="footerContactCol">
           <h4>Contact Us!</h4>
           <p>Address: Ricco Industrial Area 29 Mele, Gulabpura, District Bhilwara (R.J)</p>
           <p>Email: Prateekshastri9@gmail.com</p>
           <p className="phoneNumber">Phone: +917987725348</p>
-        </Col>
-        <Col>
           <div className="socials">
             <ul>
               <li>
-                <a
+                <a className="whatsappA"
                   href="https://wa.me/7987725348"
                   target="_blank"
                   rel="noreferrer"
